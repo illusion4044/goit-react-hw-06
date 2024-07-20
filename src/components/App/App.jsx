@@ -20,7 +20,6 @@ export default function App() {
   const filter = useSelector(selectNameFilter);
 
   useEffect(() => {
-    // Load initial contacts if no contacts exist in the store
     if (contacts.length === 0) {
       initialContacts.forEach(contact => {
         dispatch(addContact(contact));
