@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, deleteContact, selectContacts } from '../../redux/contactsSlice';
+import { addContact, selectContacts } from '../../redux/contactsSlice';
 import { selectNameFilter, changeFilter } from '../../redux/filtersSlice';
 import ContactForm from '../ContactForm/ContactForm';
 import ContactList from '../ContactList/ContactList';
